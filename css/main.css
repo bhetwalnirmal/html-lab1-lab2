@@ -197,6 +197,11 @@
   display: flex;
   justify-content: center;
 }
+
+.main-content {
+  background-image: url('img/hero.jpg');
+}
+
 .main-btn {
   border-radius: 30px;
   color: inherit;
