@@ -43,10 +43,16 @@
   padding-left: 0;
 }
 
+header {
+  background-color: var(--color-grey-7);
+  border-radius: 0.5rem;
+}
+
 .menu {
  display: flex;
  gap: 1em;
- font-size: 18px;
+ font-size: 2rem;
+ padding-left: 1rem;
 }
 .menu li:hover {
  border-radius: 5px;
@@ -257,6 +263,12 @@
 .main-title h2 span {
   color: var(--color-secondary);
 }
+
+.main-title .tag-line {
+  font-size: 1rem;
+  color: var(--color-secondary);
+}
+
 .main-title h2 .bg-text {
   position: absolute;
   top: 50%;
