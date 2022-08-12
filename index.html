@@ -2,6 +2,8 @@
 
 <html lang="en">
 	<head>
+	 <meta name="viewport" content="width=device-width, 	initial-scale=1">
+
 	  <title>Personal Blog - Nirmal Bhetwal</title>
 	  <link rel="stylesheet" type="text/css" href="css/style.css">
 	  <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,21 +19,36 @@
 		     <div class="logo">Nirmal Bhetwal</div>
 		     <!-- NAVIGATION MENU -->
 		     <ul class="nav-links">
-		       <!-- USING CHECKBOX HACK -->
-		       <label for="checkbox_toggle" class="hamburger">☰</label>
 		       <!-- NAVIGATION MENUS -->
 		       <div class="menu">
-		         <li><a href="/">Home</a></li>
-		         <li><a href="/">About</a></li>
-		         <li><a href="/">Portfolio</a></li>
-		         <li><a href="/">Contact</a></li>
+		         <li><a href="index.html">Home</a></li>
+		         <li><a href="about.html">About</a></li>
+		         <li><a href="resume.html">Portfolio</a></li>
+		         <li><a href="contact.html">Contact</a></li>
 		       </div>
 		     </ul>
 		   </nav>
 	    </header>
-	    <main>
-	    	<div>
+	    <main class="main">
+	    	<div class="main-content">
 		      <h1>This is my personal blog.</h1>
+		      <p>
+		      	A line-break can be added in HTML, using only CSS, by employing the pseudo-class ::after or ::before . In the stylesheet, we use these pseudo-classes, with the HTML class or id, before or after the place where we want to insert a line-break.
+		      </p>
+		    </div>
+		    <div class="right-content">
+		      <h1>Social links</h1>
+		      <p>
+		      	<ul>
+					<li>
+						<a href="https://facebook.com/">Facebook<i class="fab fa-facebook"></i></a>
+					</li>
+					<li><a href="https://linkedin.com/"><i class="fab fa-linkedin"></i></a></li>
+					<li><a href="https://twitter.com/"><i class="fab fa-twitter"></i></a></li>
+					<li><a href="https://linkedin.com/"><i class="fab fa-instagram"></i></a></li>
+					<li><a href="https://twitter.com/"><i class="fab fa-youtube"></i></a></li>
+				</ul>	
+		      </p>
 		    </div>
 	    </main>
 	    <div class="controls">
@@ -48,9 +65,11 @@
 	        <div class="control" data-id="portfolio">
 	            <i class="fas fa-briefcase"></i>
 	        </div>
-	        <div class="control" data-id="contact">
+	        <a href="contact.html">
+	        	<div class="control" data-id="contact">
 	            <i class="fas fa-envelope-open"></i>
 	        </div>
+	        </a>
 	    </div>
 	  </div>
 	</body>
