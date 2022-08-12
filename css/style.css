@@ -58,6 +58,11 @@
   color: var(--color-white);
 }
 
+@media screen and (max-width: 1432px) {
+  .controls {
+    display: none;
+  }
+}
 @media screen and (max-width: 600px) {
   header {
     padding: 0 !important;
@@ -95,6 +100,7 @@
   }
 
   .controls {
+    display: flex;
     top: auto;
     bottom: 0;
     flex-direction: row;
@@ -187,3 +193,4 @@
     font-size: 2.3rem;
   }
 }
+
