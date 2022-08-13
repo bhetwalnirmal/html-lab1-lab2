@@ -8,6 +8,7 @@
 :root {
   --color-primary: #191d2b;
   --color-secondary: #009688;
+  --color-tertary: #343c77;
   --color-white: #FFFFFF;
   --color-black: #000;
   --color-grey0: #f8f8f8;
@@ -50,6 +51,7 @@ header {
 
 .menu {
  display: flex;
+ flex-wrap: wrap;
  gap: 1em;
  font-size: 2rem;
  padding-left: 1rem;
@@ -174,7 +176,7 @@ header {
   font-size: 1.3rem;
 }
 .contact-content-con .right-contact {
-  flex: 3;
+  flex: 1;
   margin-left: 3rem;
 }
 .contact-content-con .right-contact .input-control {
@@ -254,6 +256,9 @@ header {
 .main-title {
   text-align: center;
 }
+.margin-top-1 {
+  padding-top: 1rem;
+}
 .main-title h2 {
   position: relative;
   text-transform: uppercase;
@@ -280,6 +285,35 @@ header {
   font-weight: 800;
   font-size: 6.3rem;
   opacity: 5%;
+}
+
+.major-projects {
+  width: 100%;
+  padding: 1rem;
+}
+
+.major-projects h3 {
+  font-size: 1.5rem;
+}
+
+.major-projects .links li {
+  list-style-type: none;
+  font-size: 1.5rem;
+}
+
+.major-projects .title {
+  padding: 1.5rem;
+  border-radius: 1rem;
+  text-align: center;
+  background-color: var(--color-grey-7);
+}
+
+.major-projects ul {
+  padding: 0.5rem 1.5rem;
+}
+.major-projects li {
+  list-style-type: disc;
+  font-size: 1.5rem;
 }
 
 @media screen and (max-width: 1432px) {
