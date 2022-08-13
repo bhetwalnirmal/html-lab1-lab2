@@ -661,6 +661,13 @@ a{
     }
 }
  @media (max-width:600px){
+ 	.navbar li {
+ 		width: 100%;
+ 		text-align: center;
+ 	}
+ 	.nav-links {
+ 		padding: 0;
+ 	}
     .resume-modal-content{
         margin:0 10px;
         width:auto!important
